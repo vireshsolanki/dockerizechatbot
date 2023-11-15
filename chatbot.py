@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'keys'
 
 def generate_response(prompt, chat_history):
     input_text = f"{chat_history}\nUser: {prompt}\nAI:"
